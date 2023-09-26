@@ -1,15 +1,18 @@
+/* Reset degli stili per tutti gli elementi */
 * {
   box-sizing: border-box;
   padding: 0;
   margin: 0;
 }
 
+/* Contenitore principale con larghezza massima e centratura */
 .container {
   max-width: 1100px;
   margin: 0 auto;
 }
 
-/*** FLEX ***/
+/*** FLESSIBILITÀ ***/
+/* Classi per la flessibilità delle disposizioni */
 .d-flex {
   display: flex;
 }
@@ -33,38 +36,40 @@
 }
 
 /*** LARGHEZZE ***/
+/* Classi per impostare larghezze percentuali */
 .w-20 {
-  width: 20%;
-} /* 1/5 */
+  width: 20%; /* 1/5 */
+}
 .w-25 {
-  width: 25%;
-} /* 1/4 */
+  width: 25%; /* 1/4 */
+}
 .w-33 {
-  width: 33%;
-} /* 1/3 */
+  width: 33%; /* 1/3 */
+}
 .w-40 {
-  width: 40%;
-} /* 2/5 */
+  width: 40%; /* 2/5 */
+}
 .w-50 {
-  width: 50%;
-} /* 1/2 */
+  width: 50%; /* 1/2 */
+}
 .w-60 {
-  width: 60%;
-} /* 3/5 */
+  width: 60%; /* 3/5 */
+}
 .w-66 {
-  width: 66%;
-} /* 2/3 */
+  width: 66%; /* 2/3 */
+}
 .w-75 {
-  width: 75%;
-} /* 3/4 */
+  width: 75%; /* 3/4 */
+}
 .w-80 {
-  width: 80%;
-} /* 4/5 */
+  width: 80%; /* 4/5 */
+}
 .w-100 {
   width: 100%;
 }
 
-/*** PADDINGS ***/
+/*** PADDING ***/
+/* Classi per impostare spaziature interne */
 .p-16 {
   padding: 16px;
 }
@@ -109,7 +114,8 @@
   padding: 0 64px;
 }
 
-/*** BACKGROUND COLORS ***/
+/*** COLORI DI SFONDO ***/
+/* Classi per impostare colori di sfondo */
 .bg-lightblue {
   background-color: lightblue;
 }
@@ -146,6 +152,6 @@
 .bg-lightgray {
   background-color: lightgray;
 }
-.bg-nome {
-  background-color: nome;
+.bg-none {
+  background-color: none;
 }
