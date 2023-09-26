@@ -1,0 +1,35 @@
+body {
+	font-family: sans-serif;
+}
+
+#menu-column > ul {
+	list-style: none;
+}
+
+.dashed {
+	border: dashed 2px black;
+}
+
+#login-column {
+	text-align: right;
+}
+
+.jumbo-content {
+	margin: 0 auto;
+	min-height: 500px;
+}
+
+.riga {
+	min-height: 700px;
+
+}
+
+.riga-big {
+	min-height: 1000px;
+}
+
+#riga-footer {
+	width: 100%;
+	margin: auto;
+}
+
